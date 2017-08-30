@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Works</title>
-    <link>https://example.com/about/</link>
+    <link>https://terracotapie.github.io/about/</link>
     <description>Recent content in About on Works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2015 Timur Borkhodoev</copyright>
+    <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
     <lastBuildDate>Tue, 29 Aug 2017 19:13:57 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://terracotapie.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://terracotapie.github.io/about/</link>
       <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://terracotapie.github.io/about/</guid>
       <description>Hi ! My name is Timur, and this is my blog. I am based in Toronto. If you are passing by don&amp;rsquo;t hesitate to say hi. I like bikes, gym and beer(in moderation)</description>
     </item>
     

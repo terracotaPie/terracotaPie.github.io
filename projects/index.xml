@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Works</title>
-    <link>https://example.com/projects/</link>
+    <link>https://terracotapie.github.io/projects/</link>
     <description>Recent content in Projects on Works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2015 Timur Borkhodoev</copyright>
+    <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
     <lastBuildDate>Tue, 29 Aug 2017 19:13:57 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://terracotapie.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kernel module monitoring syscalls</title>
-      <link>https://example.com/projects/kernel-intercept/</link>
+      <link>https://terracotapie.github.io/projects/kernel-intercept/</link>
       <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
       
-      <guid>https://example.com/projects/kernel-intercept/</guid>
+      <guid>https://terracotapie.github.io/projects/kernel-intercept/</guid>
       <description>So in one the OS classes we had to write a kernel module that intercepts system calls of choice. For that matter we were introduced to the concept of system call table. There is a good description here. We start with a snippet taken from tldp.
 #include &amp;lt;linux/kernel.h&amp;gt;	/* Needed for KERN_INFO */ #include &amp;lt;linux/init.h&amp;gt;	/* Needed for the macros */ extern void* sys_call_table[]; /* Apparently kernel doesn&#39;t export the address starting 2.</description>
     </item>

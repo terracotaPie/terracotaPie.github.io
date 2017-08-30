@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works</title>
-    <link>https://example.com/</link>
+    <link>https://terracotapie.github.io/</link>
     <description>Recent content on Works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2015 Timur Borkhodoev</copyright>
+    <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
     <lastBuildDate>Tue, 29 Aug 2017 19:13:57 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://terracotapie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://terracotapie.github.io/about/</link>
       <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://terracotapie.github.io/about/</guid>
       <description>Hi ! My name is Timur, and this is my blog. I am based in Toronto. If you are passing by don&amp;rsquo;t hesitate to say hi. I like bikes, gym and beer(in moderation)</description>
     </item>
     
     <item>
       <title>Home</title>
-      <link>https://example.com/</link>
+      <link>https://terracotapie.github.io/</link>
       <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
       
-      <guid>https://example.com/</guid>
+      <guid>https://terracotapie.github.io/</guid>
       <description>Young professional a.k.a code monkey struggling with fitness clothes addiction.</description>
     </item>
     
     <item>
       <title>Kernel module monitoring syscalls</title>
-      <link>https://example.com/projects/kernel-intercept/</link>
+      <link>https://terracotapie.github.io/projects/kernel-intercept/</link>
       <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
       
-      <guid>https://example.com/projects/kernel-intercept/</guid>
+      <guid>https://terracotapie.github.io/projects/kernel-intercept/</guid>
       <description>So in one the OS classes we had to write a kernel module that intercepts system calls of choice. For that matter we were introduced to the concept of system call table. There is a good description here. We start with a snippet taken from tldp.
 #include &amp;lt;linux/kernel.h&amp;gt;	/* Needed for KERN_INFO */ #include &amp;lt;linux/init.h&amp;gt;	/* Needed for the macros */ extern void* sys_call_table[]; /* Apparently kernel doesn&#39;t export the address starting 2.</description>
     </item>
