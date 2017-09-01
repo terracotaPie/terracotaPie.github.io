@@ -14,9 +14,9 @@
 <meta property="og:site_name" content="Timur Borkhodoev" />
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://terracotapie.github.io/projects/" />
-<meta property="og:title" content="Projects" />
-<meta property="twitter:title" content="Projects">
+<meta property="og:url" content="https://terracotapie.github.io/projects/blog/" />
+<meta property="og:title" content="Creating blog in hugo" />
+<meta property="twitter:title" content="Creating blog in hugo">
 
     <meta property="og:image" content="https://terracotapie.github.io/img/logo.png">
     <meta property="twitter:card" content="summary_large_image">
@@ -27,10 +27,10 @@
 <title>
 
 
-     Timur Borkhodoev - Projects 
+     Timur Borkhodoev - Creating blog in hugo 
 
 </title>
-<link rel="canonical" href="https://terracotapie.github.io/projects/">
+<link rel="canonical" href="https://terracotapie.github.io/projects/blog/">
 
 
 <style media="screen">
@@ -1009,8 +1009,6 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 
 
-  <link href="https://terracotapie.github.io/projects/index.xml" rel="alternate" type="application/rss+xml" title="Timur Borkhodoev" />
-
 
 </head>
 
@@ -1018,7 +1016,7 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <body>
 
 
-<section class="header header-home">
+<section class="header">
 
     <div class="container">
         <a href="https://terracotapie.github.io/"><img class="logo" src="https://terracotapie.github.io/img/logo.png" alt="logo" /></a>
@@ -1052,37 +1050,42 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <section class="main">
     <div class="container">
         <div class="content">
-            
+            <div class="page-heading">
+
+    Creating blog in hugo
+
+</div>
+
             <div class="markdown">
                 
-                    
-                
-                    
-                
-            </div>
-            <div class="posts">
-            
-                <div class="page-heading">Projects</div>
-                <ul>
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 1, 2017</span>
-    <a href="https://terracotapie.github.io/projects/blog/"><span>Creating blog in hugo</span></a>
-</li>
+    
+    <p>I&rsquo;ve been meaning to create a personal blog for a long time. I did some research
+and decided to go with hugo. There&rsquo;s one main reason for using hugo over anything
+else:</p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Aug 29, 2017</span>
-    <a href="https://terracotapie.github.io/projects/kernel-intercept/"><span>Kernel module monitoring syscalls</span></a>
-</li>
+<ul>
+<li>amazing speed</li>
+<li>org-mode support out-of-the box</li>
+<li>😃 emojis?</li>
+</ul>
 
-                        
-                    
-                </ul>
-            
+<p>As a matter of fact this post is written fully in org. I started with the
+<a href="https://gohugo.io/getting-started/quick-start/">quickstart guide</a>. There&rsquo;s a
+really great minimalistic theme
+<a href="https://github.com/fuegowolf/cocoa-eh-hugo-theme">cocoa-eh</a>. After messing with
+a config.toml and deploying to <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">github
+pages</a> it was time
+for some personalization. You can see beautiful avatar on the front page showing
+my deep appreciation for animated series(<a href="southpark.cc.com/avatar">South Park Avatar
+Creator</a>). Mongolian hat is the most important piece,
+I happen to be one russian born mongolian 😆</p>
+
+<p>Don&rsquo;t forget to enable emojis</p>
+
+<pre><code class="language-toml">enableEmoji = true
+</code></pre>
+
+
             </div>
         </div>
     </div>

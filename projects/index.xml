@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Works</title>
+    <title>Projects on Timur Borkhodoev</title>
     <link>https://terracotapie.github.io/projects/</link>
-    <description>Recent content in Projects on Works</description>
+    <description>Recent content in Projects on Timur Borkhodoev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
-    <lastBuildDate>Tue, 29 Aug 2017 19:13:57 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2017 15:00:23 -0400</lastBuildDate>
     
 	<atom:link href="https://terracotapie.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating blog in hugo</title>
+      <link>https://terracotapie.github.io/projects/blog/</link>
+      <pubDate>Fri, 01 Sep 2017 15:00:23 -0400</pubDate>
+      
+      <guid>https://terracotapie.github.io/projects/blog/</guid>
+      <description>I&amp;rsquo;ve been meaning to create a personal blog for a long time. I did some research and decided to go with hugo. There&amp;rsquo;s one main reason for using hugo over anything else:
+ amazing speed org-mode support out-of-the box 😃 emojis?  As a matter of fact this post is written fully in org. I started with the quickstart guide. There&amp;rsquo;s a really great minimalistic theme cocoa-eh. After messing with a config.</description>
+    </item>
     
     <item>
       <title>Kernel module monitoring syscalls</title>
