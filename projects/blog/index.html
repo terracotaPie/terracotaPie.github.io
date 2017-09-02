@@ -15,8 +15,8 @@
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://terracotapie.github.io/projects/blog/" />
-<meta property="og:title" content="Creating blog in hugo" />
-<meta property="twitter:title" content="Creating blog in hugo">
+<meta property="og:title" content="Creating blog using hugo" />
+<meta property="twitter:title" content="Creating blog using hugo">
 
     <meta property="og:image" content="https://terracotapie.github.io/img/logo.png">
     <meta property="twitter:card" content="summary_large_image">
@@ -27,7 +27,7 @@
 <title>
 
 
-     Timur Borkhodoev - Creating blog in hugo 
+     Timur Borkhodoev - Creating blog using hugo 
 
 </title>
 <link rel="canonical" href="https://terracotapie.github.io/projects/blog/">
@@ -1052,7 +1052,7 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
         <div class="content">
             <div class="page-heading">
 
-    Creating blog in hugo
+    Creating blog using hugo
 
 </div>
 
@@ -1083,6 +1083,57 @@ I happen to be one russian born mongolian 😆</p>
 <p>Don&rsquo;t forget to enable emojis</p>
 
 <pre><code class="language-toml">enableEmoji = true
+</code></pre>
+
+<p>If you want to host it at the root of your github pages you should follow
+deploying on master branch guide. If you follow this guide, this script
+simplifies the process of deployment</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back up to the Project Root
+cd ..
+</code></pre>
+
+<p>If you did everything correctly, - your repo after deployment should look
+something like this:
+<figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://terracotapie.github.io/img/repo.png" src="https://terracotapie.github.io/img/low/repo.png" alt="repo" title="repo screen" /></p></figure>
+
+<p>Look at that speed!!!</p>
+
+<pre><code class="language-bash">$ hugo
+Started building sites ...
+Built site for language en:
+0 draft content
+0 future content
+0 expired content
+4 regular pages created
+10 other pages created
+0 non-page files copied
+0 paginator pages created
+0 tags created
+0 categories created
+total in 17 ms
 </code></pre>
 
 
