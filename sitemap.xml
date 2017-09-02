@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://terracotapie.github.io/resume/</loc>
+    <lastmod>2017-08-29T19:13:57-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://terracotapie.github.io/about/</loc>
     <lastmod>2017-08-29T19:13:57-04:00</lastmod>
     <priority>0</priority>
@@ -36,6 +41,12 @@
   <url>
     <loc>https://terracotapie.github.io/projects/</loc>
     <lastmod>2017-09-01T15:00:23-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://terracotapie.github.io/resume/</loc>
+    <lastmod>2017-08-29T19:13:57-04:00</lastmod>
     <priority>0</priority>
   </url>
   

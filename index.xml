@@ -51,5 +51,14 @@
 #include &amp;lt;linux/kernel.h&amp;gt;	/* Needed for KERN_INFO */ #include &amp;lt;linux/init.h&amp;gt;	/* Needed for the macros */ extern void* sys_call_table[]; /* Apparently kernel doesn&#39;t export the address starting 2.</description>
     </item>
     
+    <item>
+      <title>Resume</title>
+      <link>https://terracotapie.github.io/resume/</link>
+      <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
+      
+      <guid>https://terracotapie.github.io/resume/</guid>
+      <description>download as pdf</description>
+    </item>
+    
   </channel>
 </rss>
