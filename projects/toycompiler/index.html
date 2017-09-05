@@ -14,9 +14,9 @@
 <meta property="og:site_name" content="Timur Borkhodoev" />
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://terracotapie.github.io/projects/" />
-<meta property="og:title" content="Projects" />
-<meta property="twitter:title" content="Projects">
+<meta property="og:url" content="https://terracotapie.github.io/projects/toycompiler/" />
+<meta property="og:title" content="Toy Compiler" />
+<meta property="twitter:title" content="Toy Compiler">
 
     <meta property="og:image" content="https://terracotapie.github.io/img/logo.png">
     <meta property="twitter:card" content="summary_large_image">
@@ -27,10 +27,10 @@
 <title>
 
 
-     Timur Borkhodoev - Projects 
+     Timur Borkhodoev - Toy Compiler 
 
 </title>
-<link rel="canonical" href="https://terracotapie.github.io/projects/">
+<link rel="canonical" href="https://terracotapie.github.io/projects/toycompiler/">
 
 
 <style media="screen">
@@ -1009,8 +1009,6 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 
 
-  <link href="https://terracotapie.github.io/projects/index.xml" rel="alternate" type="application/rss+xml" title="Timur Borkhodoev" />
-
 
 </head>
 
@@ -1018,7 +1016,7 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <body>
 
 
-<section class="header header-home">
+<section class="header">
 
     <div class="container">
         <a href="https://terracotapie.github.io/"><img class="logo" src="https://terracotapie.github.io/img/logo.png" alt="logo" /></a>
@@ -1058,47 +1056,50 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <section class="main">
     <div class="container">
         <div class="content">
-            
+            <div class="page-heading">
+
+    Toy Compiler
+
+</div>
+
             <div class="markdown">
                 
-                    
-                
-                    
-                
-                    
-                
-            </div>
-            <div class="posts">
-            
-                <div class="page-heading">Projects</div>
-                <ul>
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 5, 2017</span>
-    <a href="https://terracotapie.github.io/projects/toycompiler/"><span>Toy Compiler</span></a>
-</li>
+    
+    <p>For a while I wanted to create a toy compiler. Just so I can boast about which
+language is the best 🔥 .So I took a grad level course. Few things to learn here:</p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 1, 2017</span>
-    <a href="https://terracotapie.github.io/projects/blog/"><span>Creating blog using hugo</span></a>
-</li>
+<ul>
+<li><p>Code generation</p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Aug 29, 2017</span>
-    <a href="https://terracotapie.github.io/projects/kernel-intercept/"><span>Kernel module monitoring syscalls</span></a>
-</li>
+<p>Your code -&gt; intermidiate representation -&gt; assembly -&gt; machine code</p></li>
 
-                        
-                    
-                </ul>
-            
+<li><p>Grammars and language design</p>
+
+<p>i.e. what makes a good/bad language? Does one needs to have pointer
+arithmetics? Should language be expressive/permissive or maybe developers
+should focus and making it statically analyzable. Static vs dynamic types.</p></li>
+</ul>
+
+<p>I definitely answered some of the questions for myself. Just to name a few
+  things that I did in this course.</p>
+
+<ol>
+<li>Look at IR and implement one, - namely AST</li>
+<li>Implement symbol table, and write 50+ semantic checks</li>
+<li>Traverse AST and create maching code for stack based toy
+ system(Machine.java)</li>
+<li>Finish code generation part in 2 days with one other dude(thank you Nagee)
+ in a 6 people final project.
+<br /></li>
+</ol>
+
+<p>I will just leave you with the
+  <a href="https://github.com/terracotaPie/ToyCompiler">repository</a>, - there&rsquo;s bunch of
+  pdfs with the grammar description and machine code reference sheet. This graph
+  summarizes every single group project:
+  <figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://terracotapie.github.io/img/graph.png" src="https://terracotapie.github.io/img/low/graph.png" alt="graph" /></p></figure>
+
+
             </div>
         </div>
     </div>

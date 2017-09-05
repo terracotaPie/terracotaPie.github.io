@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
-    <lastBuildDate>Fri, 01 Sep 2017 15:00:23 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 Sep 2017 18:34:13 -0400</lastBuildDate>
     
 	<atom:link href="https://terracotapie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Toy Compiler</title>
+      <link>https://terracotapie.github.io/projects/toycompiler/</link>
+      <pubDate>Tue, 05 Sep 2017 18:34:13 -0400</pubDate>
+      
+      <guid>https://terracotapie.github.io/projects/toycompiler/</guid>
+      <description>For a while I wanted to create a toy compiler. Just so I can boast about which language is the best 🔥 .So I took a grad level course. Few things to learn here:
+ Code generation
+Your code -&amp;gt; intermidiate representation -&amp;gt; assembly -&amp;gt; machine code
+ Grammars and language design
+i.e. what makes a good/bad language? Does one needs to have pointer arithmetics? Should language be expressive/permissive or maybe developers should focus and making it statically analyzable.</description>
+    </item>
     
     <item>
       <title>Creating blog using hugo</title>
