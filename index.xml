@@ -18,7 +18,7 @@
       <pubDate>Tue, 05 Sep 2017 18:34:13 -0400</pubDate>
       
       <guid>https://terracotapie.github.io/projects/toycompiler/</guid>
-      <description>For a while I wanted to create a toy compiler. Just so I can boast about which language is the best 🔥 .So I took a grad level course. Few things to learn here:
+      <description>For a while I wanted to create a toy compiler. Just so I can boast about which language is the best 🔥.So I took a grad level course. Few things to learn here:
  Code generation
 Your code -&amp;gt; intermidiate representation -&amp;gt; assembly -&amp;gt; machine code
  Grammars and language design
