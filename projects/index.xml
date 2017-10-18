@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
-    <lastBuildDate>Tue, 05 Sep 2017 18:34:13 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 07 Oct 2017 22:31:45 -0400</lastBuildDate>
     
 	<atom:link href="https://terracotapie.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vim</title>
+      <link>https://terracotapie.github.io/projects/vim/</link>
+      <pubDate>Sat, 07 Oct 2017 22:31:45 -0400</pubDate>
+      
+      <guid>https://terracotapie.github.io/projects/vim/</guid>
+      <description>Back to coding in C/C++ this year for an Advanced Operating System course. I&amp;rsquo;ve been using vim the last year for the intro. Implementing a few utilities for EXT2 file system required reading through a number of structs and jump around quite a bit. Took me 5-6 hours to succumb and use IDE, namely Clion.
+Multiple problem were encountered with basic vim setup:
+ lack of auto-completion go-to-definition Poor organization and way too many plugins  All of that could be solved with YouCompleteMe.</description>
+    </item>
     
     <item>
       <title>Toy Compiler</title>
