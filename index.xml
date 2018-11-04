@@ -6,54 +6,10 @@
     <description>Recent content on Timur Borkhodoev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2017 Timur Borkhodoev</copyright>
-    <lastBuildDate>Sat, 07 Oct 2017 22:31:45 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 29 Aug 2017 19:13:57 -0400</lastBuildDate>
     
 	<atom:link href="https://terracotapie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Vim</title>
-      <link>https://terracotapie.github.io/projects/vim/</link>
-      <pubDate>Sat, 07 Oct 2017 22:31:45 -0400</pubDate>
-      
-      <guid>https://terracotapie.github.io/projects/vim/</guid>
-      <description>Back to coding in C/C++ this year for an Advanced Operating System course. I&amp;rsquo;ve been using vim the last year for the intro. Implementing a few utilities for EXT2 file system required reading through a number of structs and jump around quite a bit. Took me 5-6 hours to succumb and use IDE, namely Clion.
-Multiple problem were encountered with basic vim setup:
- lack of auto-completion go-to-definition Poor organization and way too many plugins  All of that could be solved with YouCompleteMe.</description>
-    </item>
-    
-    <item>
-      <title>Toy Compiler</title>
-      <link>https://terracotapie.github.io/projects/toycompiler/</link>
-      <pubDate>Tue, 05 Sep 2017 18:34:13 -0400</pubDate>
-      
-      <guid>https://terracotapie.github.io/projects/toycompiler/</guid>
-      <description>For a while I wanted to create a toy compiler. Just so I can boast about which language is the best 🔥.So I took a grad level course. Few things to learn here:
- Code generation
-Your code -&amp;gt; intermidiate representation -&amp;gt; assembly -&amp;gt; machine code
- Grammars and language design
-i.e. what makes a good/bad language? Does one needs to have pointer arithmetics? Should language be expressive/permissive or maybe developers should focus and making it statically analyzable.</description>
-    </item>
-    
-    <item>
-      <title>Creating blog using hugo</title>
-      <link>https://terracotapie.github.io/projects/blog/</link>
-      <pubDate>Fri, 01 Sep 2017 15:00:23 -0400</pubDate>
-      
-      <guid>https://terracotapie.github.io/projects/blog/</guid>
-      <description>I&amp;rsquo;ve been meaning to create a personal blog for a long time. I did some research and decided to go with hugo. There&amp;rsquo;s one main reason for using hugo over anything else:
- amazing speed org-mode support out-of-the box 😃 emojis?  As a matter of fact this post is written fully in org. I started with the quickstart guide. There&amp;rsquo;s a really great minimalistic theme cocoa-eh. After messing with a config.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://terracotapie.github.io/about/</link>
-      <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
-      
-      <guid>https://terracotapie.github.io/about/</guid>
-      <description>Hi ! My name is Timur, and this is my blog. I am based in Toronto. If you are passing by don&amp;rsquo;t hesitate to say hi. I like bikes, gym and beer(in moderation)</description>
-    </item>
     
     <item>
       <title>Home</title>
@@ -63,25 +19,6 @@ i.e. what makes a good/bad language? Does one needs to have pointer arithmetics?
       <guid>https://terracotapie.github.io/</guid>
       <description>Young professional a.k.a code monkey struggling with fitness clothes addiction. Some befunge for nerds 😏:
 &amp;quot;!emocleW&#39;&amp;quot;&amp;gt;:#,_@  Please checkout my projects</description>
-    </item>
-    
-    <item>
-      <title>Kernel module monitoring syscalls</title>
-      <link>https://terracotapie.github.io/projects/kernel-intercept/</link>
-      <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
-      
-      <guid>https://terracotapie.github.io/projects/kernel-intercept/</guid>
-      <description>So in one the OS classes we had to write a kernel module that intercepts system calls of choice. For that matter we were introduced to the concept of system call table. There is a good description here. We start with a snippet taken from tldp.
-#include &amp;lt;linux/kernel.h&amp;gt;	/* Needed for KERN_INFO */ #include &amp;lt;linux/init.h&amp;gt;	/* Needed for the macros */ extern void* sys_call_table[]; /* Apparently kernel doesn&#39;t export the address starting 2.</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://terracotapie.github.io/resume/</link>
-      <pubDate>Tue, 29 Aug 2017 19:13:57 -0400</pubDate>
-      
-      <guid>https://terracotapie.github.io/resume/</guid>
-      <description>download as pdf</description>
     </item>
     
   </channel>
